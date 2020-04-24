@@ -1,4 +1,3 @@
-#using a class instead of Proc.new
 require 'rack'
 
 class MyServer
@@ -12,4 +11,4 @@ class MyServer
   end
 end
 
-run MyServer.new
+ MyServer.new
