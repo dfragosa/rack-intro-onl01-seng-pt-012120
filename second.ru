@@ -1,4 +1,4 @@
-reuire 'rack'
+require 'rack'
 
 class MyServer
   def call(env)
